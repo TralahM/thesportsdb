@@ -1,0 +1,2 @@
+/all_leagues.php
+/lookuptable.php?l=4328&s=2018-2019

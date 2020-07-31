@@ -1,0 +1,5 @@
+/eventsnextleague.php?id=4328
+/eventspastleague.php?id=4328
+/eventresults.php?id=652890
+/lookupevent.php?id=441613
+/eventsseason.php?id=4328&s=2014-2015

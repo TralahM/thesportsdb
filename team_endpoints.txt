@@ -1,0 +1,2 @@
+/lookup_all_teams.php?id=4328
+/lookupteam.php?id=133604
