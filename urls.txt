@@ -1,0 +1,11 @@
+https://www.thesportsdb.com/api/v1/json/1/eventsnextleague.php?id=4328
+https://www.thesportsdb.com/api/v1/json/1/eventspastleague.php?id=4328
+https://www.thesportsdb.com/api/v1/json/1/lookup_all_teams.php?id=4328
+https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=133604
+https://www.thesportsdb.com/api/v1/json/1/eventresults.php?id=652890
+https://www.thesportsdb.com/api/v1/json/1/lookupevent.php?id=441613
+https://www.thesportsdb.com/api/v1/json/1/eventsseason.php?id=4328&s=2014-2015
+https://www.thesportsdb.com/api/v1/json/1/lookuptable.php?l=4328&s=2018-2019
+https://www.thesportsdb.com/api/v1/json/1/all_sports.php
+https://www.thesportsdb.com/api/v1/json/1/all_leagues.php
+https://www.thesportsdb.com/api/v1/json/1/all_countries.php
