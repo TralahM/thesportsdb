@@ -1,0 +1,3 @@
+lxml
+requests
+sphinx_rtd_theme
