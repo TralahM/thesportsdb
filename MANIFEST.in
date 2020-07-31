@@ -1,0 +1,5 @@
+include LICENSE
+include README*
+include *.txt
+include *.json
+recursive-include docs/*
