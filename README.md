@@ -3,14 +3,14 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/yvvmq5hyf7hj743a?svg=true)](https://ci.appveyor.com/project/TralahM/thesportsdb)
 [![Build status](https://ci.appveyor.com/api/projects/status/yvvmq5hyf7hj743a/branch/master?svg=true)](https://ci.appveyor.com/project/TralahM/thesportsdb/branch/master)
 [![Documentation Status](https://readthedocs.org/projects/thesportsdb/badge/?version=latest)](https://thesportsdb.readthedocs.io/en/latest/?badge=latest)
-[![License: GPLV2](https://img.shields.io/badge/License-GPLV2-green.svg)](https://opensource.org/licenses/GPLV2)
+[![License: GPLV3](https://img.shields.io/badge/License-GPLV2-green.svg)](https://opensource.org/licenses/GPLV2)
 [![Organization](https://img.shields.io/badge/Org-TralahTek-blue.svg)](https://github.com/TralahTek)
 [![Views](http://hits.dwyl.io/TralahM/thesportsdb.svg)](http://dwyl.io/TralahM/thesportsdb)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square)](https://github.com/TralahM/thesportsdb/pull/)
 [![GitHub pull-requests](https://img.shields.io/badge/Issues-pr-red.svg?style=flat-square)](https://github.com/TralahM/thesportsdb/pull/)
 [![Language](https://img.shields.io/badge/Language-python-3572A5.svg)](https://github.com/TralahM)
 
-# thesportsdb.
+# TheSportsDB Python SDK.
 
 
 [![TralahTek](https://img.shields.io/badge/Organization-TralahTek-black.svg?style=for-the-badge)](https://github.com/TralahTek)
@@ -19,11 +19,12 @@
 
 # Documentation
 
-[![Documentation](https://img.shields.io/badge/Docs-thesportsdb-blue.svg?style=for-the-badge)](https://github.com/TralahM/thesportsdb)
+[![Documentation](https://img.shields.io/badge/Docs-thesportsdb-blue.svg?style=for-the-badge)](https://thesportsdb.reathedocs.io/en/latest/)
 
 # How to Install
 ```bash
 # In terminal do:
+$ pip install thesportsdb
 ```
 
 ## Building from Source for Developers
@@ -31,6 +32,8 @@
 ```console
 $ git clone https://github.com/TralahM/thesportsdb.git
 $ cd thesportsdb
+$ python setup.py build
+$ pip install -e .
 ```
 
 # Contributing
