@@ -1,0 +1,13 @@
+{
+    "Next 15 Events by League Id": "https://www.thesportsdb.com/api/v1/json/1/eventsnextleague.php?id=4328",
+    "Last 15 Events by League Id": "https://www.thesportsdb.com/api/v1/json/1/eventspastleague.php?id=4328",
+    "List All teams details in a league by Id": "https://www.thesportsdb.com/api/v1/json/1/lookup_all_teams.php?id=4328",
+    "Team Details by Id": "https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=133604",
+    "Event Results by Event Id": "https://www.thesportsdb.com/api/v1/json/1/eventresults.php?id=652890",
+    "Event Details by Id": "https://www.thesportsdb.com/api/v1/json/1/lookupevent.php?id=441613",
+    "All events in specific league by season (Free tier limited to 200 events)": "https://www.thesportsdb.com/api/v1/json/1/eventsseason.php?id=4328&s=2014-2015",
+    "Lookup Table by League ID and Season": "https://www.thesportsdb.com/api/v1/json/1/lookuptable.php?l=4328&s=2018-2019",
+    "List all sports": "https://www.thesportsdb.com/api/v1/json/1/all_sports.php",
+    "List all leagues": "https://www.thesportsdb.com/api/v1/json/1/all_leagues.php",
+    "List all countries": "https://www.thesportsdb.com/api/v1/json/1/all_countries.php"
+}
