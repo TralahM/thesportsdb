@@ -12,6 +12,9 @@
 
 # TheSportsDB Python SDK.
 
+Unofficial Python API client wrapper package around [TheSportsDB API](https://thesportsdb.com) .
+An open, crowd-sourced database of sports artwork and metadata with a free API.
+
 
 [![TralahTek](https://img.shields.io/badge/Organization-TralahTek-black.svg?style=for-the-badge)](https://github.com/TralahTek)
 [![TralahM](https://img.shields.io/badge/Engineer-TralahM-blue.svg?style=for-the-badge)](https://github.com/TralahM)
@@ -22,6 +25,7 @@
 [![Documentation](https://img.shields.io/badge/Docs-thesportsdb-blue.svg?style=for-the-badge)](https://thesportsdb.reathedocs.io/en/latest/)
 
 # How to Install
+
 ```bash
 # In terminal do:
 $ pip install thesportsdb
@@ -36,6 +40,15 @@ $ python setup.py build
 $ pip install -e .
 ```
 
+# QuickStart
+
+```python
+
+import thesportsdb
+print(thesportsdb.geteventcount())
+
+```
+
 # Contributing
 [See the Contributing File](CONTRIBUTING.rst)
 
@@ -47,7 +60,7 @@ $ pip install -e .
 
 # LICENCE
 
-[Read the license here](LICENSE)
+[Read the LICENSE here](LICENSE)
 
 
 # Self-Promotion
