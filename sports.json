@@ -1,0 +1,142 @@
+{
+    "102": {
+        "idSport": "102",
+        "strSport": "Soccer",
+        "strFormat": "TeamvsTeam",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/soccer.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "103": {
+        "idSport": "103",
+        "strSport": "Motorsport",
+        "strFormat": "EventSport",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/motorsport.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "104": {
+        "idSport": "104",
+        "strSport": "Fighting",
+        "strFormat": "EventSport",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/fighting.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "105": {
+        "idSport": "105",
+        "strSport": "Baseball",
+        "strFormat": "TeamvsTeam",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/baseball.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "106": {
+        "idSport": "106",
+        "strSport": "Basketball",
+        "strFormat": "TeamvsTeam",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/basketball.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "107": {
+        "idSport": "107",
+        "strSport": "American Football",
+        "strFormat": "TeamvsTeam",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/american_football.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "108": {
+        "idSport": "108",
+        "strSport": "Ice Hockey",
+        "strFormat": "TeamvsTeam",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/ice_hockey.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "109": {
+        "idSport": "109",
+        "strSport": "Golf",
+        "strFormat": "EventSport",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/golf.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "110": {
+        "idSport": "110",
+        "strSport": "Rugby",
+        "strFormat": "TeamvsTeam",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/rugby.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "111": {
+        "idSport": "111",
+        "strSport": "Tennis",
+        "strFormat": "EventSport",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/tennis.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "112": {
+        "idSport": "112",
+        "strSport": "Cricket",
+        "strFormat": "TeamvsTeam",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/cricket.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "113": {
+        "idSport": "113",
+        "strSport": "Cycling",
+        "strFormat": "EventSport",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/cycling.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "114": {
+        "idSport": "114",
+        "strSport": "Australian Football",
+        "strFormat": "TeamvsTeam",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/australian_football.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "115": {
+        "idSport": "115",
+        "strSport": "ESports",
+        "strFormat": "EventSport",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/esports.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "116": {
+        "idSport": "116",
+        "strSport": "Volleyball",
+        "strFormat": "TeamvsTeam",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/volleyball.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "117": {
+        "idSport": "117",
+        "strSport": "Netball",
+        "strFormat": "TeamvsTeam",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/netball.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "118": {
+        "idSport": "118",
+        "strSport": "Handball",
+        "strFormat": "TeamvsTeam",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/handball.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "119": {
+        "idSport": "119",
+        "strSport": "Snooker",
+        "strFormat": "EventSport",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/snooker.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "120": {
+        "idSport": "120",
+        "strSport": "Field Hockey",
+        "strFormat": "TeamvsTeam",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/Field_Hockey.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    },
+    "121": {
+        "idSport": "121",
+        "strSport": "Darts",
+        "strFormat": "EventSport",
+        "strSportThumb": "https://www.thesportsdb.com/images/sports/Darts.jpg",
+        "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg"
+    }
+}
