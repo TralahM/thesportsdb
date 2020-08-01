@@ -17,12 +17,15 @@ def allSports():
 
 
 def sportInfo(sport_id: str):
+    return TSD.SPORTS.get(sport_id, None)
     ...
 
 
 def TeamVsTeamSports():
+    return {"sports": [sportInfo(sp) for sp in TSD.TVTSPORTS]}
     ...
 
 
 def nonTeamVsTeamSports():
+    return {"sports": [sportInfo(sp) for sp in TSD.NONTVTSPORTS]}
     ...

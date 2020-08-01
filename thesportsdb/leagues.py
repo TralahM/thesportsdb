@@ -22,8 +22,10 @@ def leagueSeasonTable(league_id: str, season: str):
 
 
 def leagueInfo(league_id: str):
+    return TSD.LEAGUE_MAP.get(league_id)
     ...
 
 
 def sportLeagues(sport_id: str):
+    return {"leagues": TSD.SPORTS_LEAGUES_MAP.get(sport_id, None)}
     ...
