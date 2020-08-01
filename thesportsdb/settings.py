@@ -1,11 +1,9 @@
 BASE_URL = "https://www.thesportsdb.com/api/v1/json/"
 API_KEY = "1"
-LEAGUE_NEXT_15_EVENTS = (
-    "/eventsnextleague.php"  # ?id=4328 get next 15 events by leagueid
-)
-LEAGUE_LAST_15_EVENTS = (
-    "/eventspastleague.php"  # ?id=4328 get last 15 events by leagueid
-)
+# ?id=4328 get next 15 events by leagueid
+LEAGUE_NEXT_EVENTS = "/eventsnextleague.php"
+# ?id=4328 get last 15 events by leagueid
+LEAGUE_LAST_EVENTS = "/eventspastleague.php"
 LEAGUE_TEAMS = "/lookup_all_teams.php"  # ?id=4328 get teams by leagueid
 # ?id=4328&s=2014-2015 get league events for season using leagueid
 LEAGUE_SEASON_EVENTS = "/eventsseason.php"
