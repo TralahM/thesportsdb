@@ -45,7 +45,7 @@ $ pip install -e .
 ```python
 
 import thesportsdb
-print(thesportsdb.geteventcount())
+print(thesportsdb)
 
 ```
 
