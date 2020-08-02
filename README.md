@@ -22,7 +22,7 @@ An open, crowd-sourced database of sports artwork and metadata with a free API.
 
 # Documentation
 
-[![Documentation](https://img.shields.io/badge/Docs-thesportsdb-blue.svg?style=for-the-badge)](https://thesportsdb.reathedocs.io/en/latest/)
+[![Documentation](https://img.shields.io/badge/Docs-thesportsdb-blue.svg?style=for-the-badge)](https://thesportsdb.readthedocs.io/en/latest/)
 
 # How to Install
 
