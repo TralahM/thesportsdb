@@ -10,6 +10,9 @@ Welcome to TheSportsDB Python API's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   Getting Started <contents.rst>
+   API Reference <api.rst>
+
 
 
 Indices and tables
