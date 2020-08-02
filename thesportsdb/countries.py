@@ -10,5 +10,8 @@ from thesportsdb.requests import make_request
 
 
 def allCountries():
+    """
+    Get all countries information.
+    """
     return make_request(TSD.ALL_COUNTRIES)
     ...
