@@ -5,6 +5,8 @@
 
 Welcome to TheSportsDB Python API's documentation!
 ==================================================
+This is an unofficial Python API client wrapper package around `TheSportsDB.com API <https://thesportsdb.com/>`_.
+An open, crowd-sourced database of sports artwork and metadata with a free API.
 
 .. toctree::
    :maxdepth: 2

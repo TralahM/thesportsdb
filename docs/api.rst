@@ -1,9 +1,5 @@
-Countries
-----------
-.. automodule:: thesportsdb.countries
-    :members:
-    :undoc-members:
-    :show-inheritance:
+API Reference
+==================
 
 Events
 ----------
@@ -15,20 +11,6 @@ Events
 Leagues
 ----------
 .. automodule:: thesportsdb.leagues
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-Requests
-----------
-.. automodule:: thesportsdb.requests
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-Settings
-----------
-.. automodule:: thesportsdb.settings
     :members:
     :undoc-members:
     :show-inheritance:
@@ -47,3 +29,23 @@ Teams
     :undoc-members:
     :show-inheritance:
 
+Countries
+----------
+.. automodule:: thesportsdb.countries
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+Requests
+----------
+.. automodule:: thesportsdb.requests
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+Settings
+----------
+.. automodule:: thesportsdb.settings
+    :members:
+    :undoc-members:
+    :show-inheritance:
