@@ -10,11 +10,11 @@
 [![GitHub pull-requests](https://img.shields.io/badge/Issues-pr-red.svg?style=flat-square)](https://github.com/TralahM/thesportsdb/pull/)
 [![Language](https://img.shields.io/badge/Language-python-3572A5.svg)](https://github.com/TralahM)
 
-# TheSportsDB Python SDK.
+# TheSportsDB Python SDK
 
-Unofficial Python API client wrapper package around [TheSportsDB API](https://thesportsdb.com) .
+Unofficial Python API client wrapper package around
+[TheSportsDB API](https://thesportsdb.com).
 An open, crowd-sourced database of sports artwork and metadata with a free API.
-
 
 [![TralahTek](https://img.shields.io/badge/Organization-TralahTek-black.svg?style=for-the-badge)](https://github.com/TralahTek)
 [![TralahM](https://img.shields.io/badge/Engineer-TralahM-blue.svg?style=for-the-badge)](https://github.com/TralahM)
@@ -26,21 +26,32 @@ An open, crowd-sourced database of sports artwork and metadata with a free API.
 
 # How to Install
 
-```bash
+```sh
 # In terminal do:
-$ pip install thesportsdb
+
+pip install thesportsdb
 ```
 
 ## Building from Source for Developers
 
-```console
-$ git clone https://github.com/TralahM/thesportsdb.git
-$ cd thesportsdb
-$ python setup.py build
-$ pip install -e .
+```sh
+git clone https://github.com/TralahM/thesportsdb.git
+
+cd thesportsdb
+
+python setup.py build
+
+pip install -e .
 ```
 
 # QuickStart
+
+By default the library will use the free TheSportsDB API. To use the premium
+version you need to register at [TheSportsDB](https://thesportsdb.com/)
+and get an API key.
+
+Then you can set the API key to be used by the library as a shell environment
+variable using `export THESPORTSDB_API_KEY=YOUR_API_KEY` before using the library.
 
 ```python
 
@@ -81,18 +92,12 @@ team_details_ManC=thesportsdb.teams.teamInfo("133613")
 ```
 
 # Contributing
+
 [See the Contributing File](CONTRIBUTING.rst)
-
-
-[See the Pull Request File](PULL_REQUEST_TEMPLATE.md)
-
-
-# Support
 
 # LICENCE
 
-[Read the LICENSE here](LICENSE)
-
+[Read the LICENSE here](./LICENSE)
 
 # Self-Promotion
 
@@ -101,9 +106,6 @@ team_details_ManC=thesportsdb.teams.teamInfo("133613")
 [![TralahM](https://img.shields.io/badge/Kaggle-TralahM-purple.svg?style=for-the-badge)](https://kaggle.com/TralahM)
 [![TralahM](https://img.shields.io/badge/LinkedIn-TralahM-red.svg?style=for-the-badge)](https://linkedin.com/in/TralahM)
 
-
-[![Blog](https://img.shields.io/badge/Blog-tralahm.tralahtek.com-blue.svg?style=for-the-badge)](https://tralahm.tralahtek.com)
+[![Blog](https://img.shields.io/badge/Blog-tralahm.github.io-blue.svg?style=for-the-badge)](https://tralahm.github.io)
 
 [![TralahTek](https://img.shields.io/badge/Organization-TralahTek-cyan.svg?style=for-the-badge)](https://tralahtek.com)
-
-

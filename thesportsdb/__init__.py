@@ -10,11 +10,12 @@
 :CREATED: 	2020-08-01
 =======================================================================
 
-DESCRIPTION::  TheSportsDB API Python SDK
+:DESCRIPTION:  TheSportsDB API Python SDK
 Unofficial Python SDK  package around TheSportsDB API .
 An open, crowd-sourced database of sports artwork and metadata with a free API.
 
 """
+
 from __future__ import absolute_import
 from thesportsdb import events
 from thesportsdb import countries
@@ -23,8 +24,9 @@ from thesportsdb import teams
 from thesportsdb import sports
 from thesportsdb import settings
 from thesportsdb import requests
+from thesportsdb import players
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __author__ = "Tralah M Brian <https://github.com/TralahM/thesportsdb>"
 __all__ = [
     countries,
@@ -34,4 +36,5 @@ __all__ = [
     settings,
     sports,
     teams,
+    players,
 ]

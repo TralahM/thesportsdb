@@ -1,7 +1,70 @@
+# TheSportsDB API Python SDK Constants
+"""
+TheSportsDB API Python SDK Constants.
+
+This module contains constants used in the TheSportsDB API Python SDK.
+
+They include all the API endpoints for the TheSportsDB API as well as:
+
+- BASE_URL - The base URL for the API
+- API_KEY - The API key to use defaults to "1" can be set as an env variable **THESPORTSDB_API_KEY**
+- TVTSPORTS - Team Vs Team Sport IDs
+- NONTVTSPORTS - Non Team Vs Team Sport IDs
+- SPORTS - Map of sport id to sport details
+- SPORTS_LEAGUES_MAP - Map of sport id to list of league ids
+- LEAGUE_MAP - Map of league id to league details
+
+* Sports Detail Example
+
+.. code-block:: json
+
+   {
+     "102": {
+         "idSport": "102",
+         "strSport": "Soccer",
+         "strFormat": "TeamvsTeam",
+         "strSportThumb": "https://www.thesportsdb.com/images/sports/soccer.jpg",
+         "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg",
+     },
+   }
+
+* League Details Example
+
+.. code-block:: json
+
+   {
+     "4328": {
+         "idLeague": "4328",
+         "strLeague": "English Premier League",
+         "strSport": "Soccer",
+         "strLeagueAlternate": "Premier League",
+     },
+   }
+
+"""
+
+import os
+
+# BASE URL
 BASE_URL = "https://www.thesportsdb.com/api/v1/json/"
-API_KEY = "1"
+
+# API KEY
+API_KEY = os.getenv("THESPORTSDB_API_KEY", "3")
+
+# ENDPOINTS
 # ?id=4328 get next 15 events by leagueid
 LEAGUE_NEXT_EVENTS = "/eventsnextleague.php"
+# search all seasons in a league
+SEASONS = "/search_all_seasons.php"
+# next 5 events by team id
+NEXT_EVENTS = "/eventsnext.php"
+# last 5 events by team id
+LAST_EVENTS = "/eventslast.php"
+EVENTS_DAY = "/eventsday.php"
+EVENTS_ROUND = "/eventsround.php"
+VENUE = "/lookupvenue.php"
+EVENTS_TVT = "/eventsvs.php"
+TV_EVENT = "/lookuptv.php"
 # ?id=4328 get last 15 events by leagueid
 LEAGUE_LAST_EVENTS = "/eventspastleague.php"
 LEAGUE_TEAMS = "/lookup_all_teams.php"  # ?id=4328 get teams by leagueid
@@ -9,17 +72,29 @@ LEAGUE_TEAMS = "/lookup_all_teams.php"  # ?id=4328 get teams by leagueid
 LEAGUE_SEASON_EVENTS = "/eventsseason.php"
 # ?l=4328&s=2018-2019 get league table for season using league id
 LEAGUE_SEASON_TABLE = "/lookuptable.php"
-
-
 TEAM = "/lookupteam.php"  # ?id=133604 lookup team by teamid
-
+TEAM_EQUIPMENT = "/lookupequipment.php"
+# ?id=652890 lookup team players by teamid
+TEAM_PLAYERS = "/lookup_all_players.php"
 # ?id=652890 lookup event results by eventid
 EVENT_RESULT = "/eventresults.php"
 EVENT = "/lookupevent.php"  # ?id=441613 lookup event by eventid
-
+LEAGUE_SEASON_ROUND_EVENTS = "/eventsround.php"
+# ?id=441613 lookup event stats by eventid
+EVENT_STATS = "/lookupeventstats.php"
+# ?id=441613 lookup event lineups by eventid
+EVENT_LINEUPS = "/lookuplineups.php"
+EVENT_TIMELINE = "/lookuptimeline.php"
 ALL_SPORTS = "/all_sports.php"  # get all sports
 ALL_LEAGUES = "/all_leagues.php"  # get all leagues
 ALL_COUNTRIES = "/all_countries.php"  # get all countries
+LEAGUES_BY_COUNTRY = "/search_all_leagues.php"
+PLAYER_HONORS = "/lookuphonors.php"
+PLAYER_MILESTONES = "/lookupmilestones.php"
+PLAYER_FORMER_TEAMS = "/lookupformerteams.php"
+PLAYER_CONTRACTS = "/lookupcontracts.php"
+
+# team vs team sports
 TVTSPORTS = [
     "102",
     "105",
@@ -34,7 +109,11 @@ TVTSPORTS = [
     "118",
     "120",
 ]
+
+# sports without team vs team
 NONTVTSPORTS = ["109", "119", "103", "113", "115", "111", "121", "104"]
+
+# sports
 SPORTS = {
     "102": {
         "idSport": "102",
@@ -177,6 +256,8 @@ SPORTS = {
         "strSportThumbGreen": "https://www.thesportsdb.com/images/sports/motorsport_green2.jpg",
     },
 }
+
+# Map of sport id to list of league ids
 SPORTS_LEAGUES_MAP = {
     "102": [
         "4328",
@@ -629,6 +710,7 @@ SPORTS_LEAGUES_MAP = {
     "121": ["4554", "4561"],
 }
 
+# Map of League ID to League Details
 LEAGUE_MAP = {
     "4328": {
         "idLeague": "4328",
