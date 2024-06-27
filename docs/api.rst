@@ -29,6 +29,13 @@ Teams
     :undoc-members:
     :show-inheritance:
 
+Players
+----------
+.. automodule:: thesportsdb.players
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 Countries
 ----------
 .. automodule:: thesportsdb.countries
