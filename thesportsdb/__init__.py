@@ -26,7 +26,7 @@ from thesportsdb import settings
 from thesportsdb import requests
 from thesportsdb import players
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 __author__ = "Tralah M Brian <https://github.com/TralahM/thesportsdb>"
 __all__ = [
     countries,
