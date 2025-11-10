@@ -13,6 +13,7 @@ All Event API interactions on the free tier.
 """
 
 from __future__ import absolute_import
+
 import thesportsdb.settings as TSD
 from thesportsdb.requests import make_request
 
@@ -36,7 +37,7 @@ def leagueSeasonEvents(league_id: str, season: str):
     Get the  Events for this league identified by the `league_id` for the
     `season` specified.
     """
-    return make_request(TSD.LEAGUE_SEASON_EVENTS, l=league_id, s=season)
+    return make_request(TSD.LEAGUE_SEASON_EVENTS, id=league_id, s=season)
 
 
 def leagueSeasonRoundEvents(league_id: str, season: str, round: str):
