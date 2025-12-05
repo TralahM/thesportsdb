@@ -96,9 +96,10 @@ PLAYER_CONTRACTS = "/lookupcontracts.php"
 
 # Search endpoints
 SEARCH_TEAMS = "/searchteams.php"  # ?t=Arsenal or ?sname=ARS
-SEARCH_PLAYERS = "/searchplayers.php"  # ?t=Arsenal or ?p=Danny_Welbeck 
+SEARCH_PLAYERS = "/searchplayers.php"  # ?t=Arsenal or ?p=Danny_Welbeck
 SEARCH_EVENTS = "/searchevents.php"  # ?e=Arsenal_vs_Chelsea
-SEARCH_FILENAME = "/searchfilename.php"  # ?e=English_Premier_League_2015-04-26_Arsenal_vs_Chelsea
+# ?e=English_Premier_League_2015-04-26_Arsenal_vs_Chelsea
+SEARCH_FILENAME = "/searchfilename.php"
 SEARCH_VENUES = "/searchvenues.php"  # ?t=Wembley
 SEARCH_LOVES = "/searchloves.php"  # ?u=username
 
