@@ -17,16 +17,19 @@ An open, crowd-sourced database of sports artwork and metadata with a free API.
 """
 
 from __future__ import absolute_import
-from thesportsdb import events
-from thesportsdb import countries
-from thesportsdb import leagues
-from thesportsdb import teams
-from thesportsdb import sports
-from thesportsdb import settings
-from thesportsdb import requests
-from thesportsdb import players
 
-__version__ = "0.2.1"
+from thesportsdb import (
+    countries,
+    events,
+    leagues,
+    players,
+    requests,
+    settings,
+    sports,
+    teams,
+)
+
+__version__ = "0.3.0"
 __author__ = "Tralah M Brian <https://github.com/TralahM/thesportsdb>"
 __all__ = [
     countries,
