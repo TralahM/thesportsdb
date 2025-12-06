@@ -97,24 +97,25 @@ commit_parsers = [
   { message = "^[r|R]emove", group = "<!-- 2 -->Removed" },
   { message = "^.*: add", group = "<!-- 1 -->Added" },
   { message = "^.*: support", group = "<!-- 1 -->Added" },
+  { message = "^[M|m]erge", group = "<!-- 1 -->Added" },
   { message = "^.*: remove", group = "<!-- 2 -->Removed" },
   { message = "^.*: delete", group = "<!-- 2 -->Removed" },
   { message = "^test", group = "<!-- 1 -->:bug: Fixed" },
-  { message = "^fix", group = "<!-- 1 -->:bug: Fixed" },
+  { message = "^[F|fix]", group = "<!-- 1 -->:bug: Fixed" },
   { message = "^.*: fix", group = "<!-- 1 -->:bug: Fixed" },
   { message = "^feat*", group = "<!-- 0 -->:rocket: New Features" },
   { message = "^.*!:", group = "<!-- 0 --> 🏗️ Breaking changes" },
-  { message = "^fix*", group = "<!-- 1 -->:bug: Fixed" },
+  { message = "^[F|f]ix*", group = "<!-- 1 -->:bug: Fixed" },
   { message = "^deps*:", group = "<!-- 2 -->🧪  Dependencies" },
   { message = "^perf*", group = "<!-- 3 -->:zap: Performance" },
   { message = "^refactor", group = "<!-- 3 --> 🏭 Refactor" },
   { message = "^chore*", group = "<!-- 5 -->:gear: Miscellaneous" },
   { message = "^doc", group = "<!-- 4 --> 📝 Documentation" },
   { message = "^style", group = "<!-- 5 -->:art: Styling" },
-  { message = "^.*", group = "<!-- 6 --> 🌀 Other", default_scope = "other" },
+  { message = "^.*: .*", group = "<!-- 6 --> 🌀 Other", default_scope = "other" },
 ]
 # Exclude commits that are not matched by any commit parser.
-filter_commits = false
+filter_commits = true
 # Order releases topologically instead of chronologically.
 topo_order = false
 # Order of commits in each group/release within the changelog.
