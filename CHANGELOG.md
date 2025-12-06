@@ -7,20 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 <!-- next-header -->
+## [0.3.0] - 2025-12-06
+
+### :bug: Fixed
+- HONORS -> HONOURS #2.
+
+### :gear: Miscellaneous
+- Cleanup readme. by @TralahM
+
+### New Contributors
+* @TralahM made their first contribution
+
 ## [0.2.0] - 2025-12-06
 
 ### :bug: Fixed
-- Fix leagueSeasonEvents parameter and add tests
+- Fix leagueSeasonEvents parameter and add tests by @solevis in [#6](https://github.com/tralahm/thesportsdb/pull/6)
 
 ### Added
-- Add changelog
+- Add changelog by @TralahM
 - Add search endpoints and corresponding tests for teams, players, events, venues, and user loves by @sabrysm
 
 ### 📝 Documentation
 - Document players module. by @TralahM
 
 ### :gear: Miscellaneous
-- Bump v0.2.0.
+- Changelog version by @TralahM
+- Bump v0.2.0. by @TralahM
 
 ### 🌀 Other
 - Merge pull request #5 from sabrysm/latest-updates by @TralahM in [#5](https://github.com/tralahm/thesportsdb/pull/5)
@@ -36,6 +48,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Quickstart Usage Examples by @TralahM
 
 ### New Contributors
+* @solevis made their first contribution in [#6](https://github.com/tralahm/thesportsdb/pull/6)
 * @sabrysm made their first contribution
 
 ## [0.1.1] - 2020-08-01
@@ -81,6 +94,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * @TralahM made their first contribution
 
 <!-- next-url -->
+[0.3.0]: https://github.com/tralahm/thesportsdb/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/tralahm/thesportsdb/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/tralahm/thesportsdb/compare/v0.1.0...v0.1.1
 
