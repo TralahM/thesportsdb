@@ -82,7 +82,7 @@ trim = true
 # See https://www.conventionalcommits.org
 conventional_commits = true
 # Exclude commits that do not match the conventional commits specification.
-filter_unconventional = true
+filter_unconventional = false
 # An array of regex based parsers to modify commit messages prior to further processing.
 commit_preprocessors = [
   # Remove issue numbers.
