@@ -7,12 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 <!-- next-header -->
+## [0.3.1] - 2025-12-06
+
+### 🌀 Other
+- Bump v0.3.1
+
 ## [0.3.0] - 2025-12-06
 
 ### :bug: Fixed
+- Fixes #2.
 - HONORS -> HONOURS #2.
 
 ### :gear: Miscellaneous
+- Setup metadata.
+- Bump version.
+- Update changelog.
 - Cleanup readme. by @TralahM
 
 ### New Contributors
@@ -22,9 +31,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### :bug: Fixed
 - Fix leagueSeasonEvents parameter and add tests by @solevis in [#6](https://github.com/tralahm/thesportsdb/pull/6)
+- Function docs by @TralahM
 
 ### Added
 - Add changelog by @TralahM
+- Merge pull request #5 from sabrysm/latest-updates by @TralahM in [#5](https://github.com/tralahm/thesportsdb/pull/5)
 - Add search endpoints and corresponding tests for teams, players, events, venues, and user loves by @sabrysm
 
 ### 📝 Documentation
@@ -35,14 +46,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump v0.2.0. by @TralahM
 
 ### 🌀 Other
-- Merge pull request #5 from sabrysm/latest-updates by @TralahM in [#5](https://github.com/tralahm/thesportsdb/pull/5)
 - Bump version by @TralahM
 - Update library to support environment variables. added new methods from updated api. by @TralahM
 - Example event detail. by @TralahM
 - Community health files by @TralahM
 - Update funding, LICENCE, mailmap by @TralahM
 - Readthedocs by @TralahM
-- Function docs by @TralahM
 - Templating docs ... API Reference by @TralahM
 - Minor v0.1.2 with usage examples by @TralahM
 - Quickstart Usage Examples by @TralahM
@@ -94,6 +103,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * @TralahM made their first contribution
 
 <!-- next-url -->
+[0.3.1]: https://github.com/tralahm/thesportsdb/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/tralahm/thesportsdb/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/tralahm/thesportsdb/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/tralahm/thesportsdb/compare/v0.1.0...v0.1.1
